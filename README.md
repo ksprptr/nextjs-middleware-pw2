@@ -4,7 +4,7 @@ Mini web app that checks the token from cookies and sets the locale header based
 
 ## Dependencies
 
-[Node.js](https://nodejs.org/en) version `18.18 or later..`
+[Node.js](https://nodejs.org/en) version `18.18.0 or later..`
 
 [pnpm](https://pnpm.io/installation) version `8 or later..`
 
