@@ -1,31 +1,38 @@
 # Next.js Middleware
 
-Mini web app that checks the token from cookies and sets the locale header based on the path in middleware.
+> A compact web application that validates the token from cookies and configures the locale header based on the URL path within middleware.
 
-## Dependencies
+- [Prerequisites](#Prerequisites)
+- [Installation](#Installation)
+- [Run](#Run)
+- [Configuration](#Configuration)
+- [License](#License)
 
-[Node.js](https://nodejs.org/en) version `18.18.0 or later..`
+## Prerequisites
 
-[pnpm](https://pnpm.io/installation) version `8 or later..`
+- Knowledge of JavaScript/TypeScript, [Next.js](https://nextjs.org/), Git
+- IDE ([VS Code](https://code.visualstudio.com/), WebStorm, ...)
+- Package manager ([pnpm](https://pnpm.io/installation), npm, ...)
 
 ## Installation
 
-Go to the project folder
+- Go to the project folder using `cd nextjs-middleware-pw2/`
+- Install all dependecies using `pnpm install`
 
-```bash
-cd nextjs-middleware-pw2/
-```
+## Run
 
-Install all dependencies
+- Development server: `pnpm run dev`
+- Production: `pnpm run build & pnpm run start`
 
-```bash
-pnpm install
-```
+## Configuration
 
-Start live server
+| Description       | Values                 |
+| ----------------- | ---------------------- |
+| **Ports:**        | 3000                   |
+| **Technologies:** | Next.js                |
+| **URL:**          | http://localhost:3000/ |
 
-```bash
-pnpm run dev
-```
+## License
 
-Open [localhost:3000](http://localhost:3000) in your browser to see the project home page.
+> This software is developed by **Petr Kašpar** and is licensed under the MIT License.  
+> For more details, please refer to the [LICENSE](./LICENSE) file.
