@@ -1,7 +1,7 @@
 {
   "name": "nextjs-middleware-pw2",
   "version": "0.1.0",
-  "description": "A compact web application that validates the token from cookies and configures the locale header based on the URL path within middleware.",
+  "description": "A compact web application for a PW2 school project that validates the token from cookies and configures the locale header based on the URL path within middleware.",
   "private": true,
   "author": "Petr Kašpar",
   "license": "MIT",

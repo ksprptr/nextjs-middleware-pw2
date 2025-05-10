@@ -1,6 +1,6 @@
 # Next.js Middleware
 
-> A compact web application that validates the token from cookies and configures the locale header based on the URL path within middleware.
+> A compact web application for a PW2 school project that validates the token from cookies and configures the locale header based on the URL path within middleware.
 
 - [Prerequisites](#Prerequisites)
 - [Installation](#Installation)
